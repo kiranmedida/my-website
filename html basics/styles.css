@@ -1,0 +1,82 @@
+*{font-family:monospace}
+body{
+    margin:0
+}
+header{
+    height:100vh;
+    background-color:rgb(58, 117, 245);
+    color:
+}
+header h1{
+    color:aqua;
+    margin:0
+}
+h1{
+    color:rgb(188, 136, 236);
+    font-size:50px;
+}
+h3{font-size:25px;color:rgb(42, 97, 165)}
+.button{
+    font-size:23px ;
+    height:70px;
+    width:150px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer
+}
+.button:hover{
+    color:white;
+    background-color:burlywood}
+.submit{height:30px;width:78px;font-size:20px}
+img{height:200px;}
+
+section{
+    height:100vh;
+    border:1px solid black;
+    border-radius:20px;
+    margin:20px;
+    
+}
+#about-section{font-size:20px;}
+#skills{font-size:20px}
+#project{font-size:20px} 
+#contact{font-size:20px}
+#name{height:25px;border-radius:5px}
+#email{height:25px;border-radius:5px}
+footer{height:130px;background-color: black;color:aqua}
+.top{position:fixed;height:50px;width:60px;border:none;
+border-radius:100px;background-color:rgb(253, 237, 17);bottom:20px;right:10px}
+.top:hover{background-color: burlywood;color:white;cursor:pointer;}
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 20px;
+}
+html {
+  scroll-behavior: smooth;
+}
+footer{text-align:center}
+#about-card{
+  background: #cfa116;
+  border: 9px solid #661a1a;
+  width: 50%;
+  margin: 80px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+
+img {
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+
+section{background-color:lightgoldenrodyellow;}
